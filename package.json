@@ -6,7 +6,9 @@
   "scripts": {
     "pretest": "./scripts/backfill-daily-totals.js",
     "start": "node index.js",
-    "test": "lab -v -c --timeout 5000"
+    "test": "lab -v -c --timeout 5000",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Laurie Voss <laurie@npmjs.com>",
   "license": "ISC",
@@ -25,11 +27,13 @@
     "manta-client": "~1.0.5",
     "moment": "~2.5.1",
     "mysql": "~2.0.1",
-    "uuid": "~1.4.1"
+    "uuid": "~1.4.1",
+    "snyk": "^1.521.0"
   },
   "devDependencies": {
     "code": "^1.2.1",
-    "lab": "^5.1.1",
+    "lab": "^9.0.0",
     "request": "^2.51.0"
-  }
+  },
+  "snyk": true
 }
