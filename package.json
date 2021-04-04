@@ -15,7 +15,7 @@
     "async": "~0.2.10",
     "aws-sdk": "^2.1.17",
     "compact-uuid": "~0.0.1",
-    "dashdash": "~1.4.0",
+    "dashdash": "~1.14.1",
     "fastly": "^1.2.1",
     "hapi": "~2.3.0",
     "hapi-mysql": "~0.0.41",
