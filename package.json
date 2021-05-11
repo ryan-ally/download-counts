@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "code": "^1.2.1",
-    "lab": "^5.1.1",
+    "lab": "^10.5.0",
     "request": "^2.51.0"
   }
 }
